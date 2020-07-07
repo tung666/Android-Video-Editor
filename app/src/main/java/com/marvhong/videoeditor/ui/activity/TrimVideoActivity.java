@@ -104,7 +104,7 @@ public class TrimVideoActivity extends BaseActivity {
     private RangeSeekBar seekBar;
 
     private static final String TAG = TrimVideoActivity.class.getSimpleName();
-    private static final long MIN_CUT_DURATION = 3 * 1000L;// 最小剪辑时间3s
+    private static final long MIN_CUT_DURATION = 5 * 1000L;// 最小剪辑时间3s
     private static final long MAX_CUT_DURATION = 10 * 1000L;//视频最多剪切多长时间
     private static final int MAX_COUNT_RANGE = 10;//seekBar的区域内一共有多少张图片
     private static final int MARGIN = UIUtils.dp2Px(56); //左右两边间距
